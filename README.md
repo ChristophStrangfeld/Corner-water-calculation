@@ -98,7 +98,7 @@ Weber_floor_4341
 
 Weber_floor_4490
 
-The PVD were determined with mercury intrusion porosimetry and gas adsorption. The sorption isotherms of screed samples were measured in climate chambers, for sandstones in desiccators, and earth in dynamic vapour adsorption devices. 
+The PVD were determined with mercury intrusion porosimetry and gas adsorption according to ISO 15901-1:2016 and ISO 15901-2:200. The sorption isotherms of screed samples were measured in climate chambers, for sandstones in desiccators, and earth in dynamic vapour adsorption devices. Measurements were taken always at equlibirum state.
 
 📁 Data Structure
 
@@ -112,49 +112,18 @@ For 28 materials, measured sorption isotherms are available. The corresponding f
 
 
 
-📊 Frequency Analysis
-Dominant Frequencies
-
-Frequency range of interest: 5 kHz – 25 kHz
-
-Determination of the frequency with the maximum spectral amplitude per position
-
-Frequencies below 5 kHz are set to NaN (measurement region below the rail)
-
-Spectral Energy Evaluation
-
-Spectral energy is evaluated in the following bands:
-
-5–10 kHz (low-frequency band)
-
-10–20 kHz (high-frequency band)
-
-Energy values are normalized with respect to the total energy in the range 5–20 kHz.
 
 📦 Key Output Variables
-Variable	Description
-spectrum_all	Averaged PSDs for all sleepers and excitation types
-maximum_frequencies	Dominant frequencies per measurement position
-total_power	Total spectral energy (5–20 kHz)
-power_share_normalised_low_frequency_band	Normalized energy share (5–10 kHz)
-power_share_normalised_high_frequency_band	Normalized energy share (10–20 kHz)
+
 
 📈 Additional Data Extraction
 
-For selected sleepers, individual time signals are stored in order to:
 
-Compare different excitation mechanisms directly
-
-Enable detailed post-processing and visualization
 
 🛠 Requirements
 
-MATLAB (recommended: R2021b or newer)
-
-Signal Processing Toolbox
-
-TDMS file support (tdmsread)
+MATLAB (recommended: R2024b or newer)
 
 👤 Author / Context
 
-The corresponding research project was funded by Deutsches Zentrum für Schienenverkehrsforschung beim Eisenbahn-Bundesamt (German Centre for Rail Traffic Research at the Federal Railway Authority) under the research grant 1113-111vb\slash012-0099\#004, titled "Technische Machbarkeitsstudie zur Rissdetektion an Eisenbahn-Spannbetonschwellen mit Methoden der zerstörungsfreien Prüfung" (Technical feasibility study on crack detection in railway prestressed concrete sleepers using non-destructive testing methods).
+Christoph Strangfeld
