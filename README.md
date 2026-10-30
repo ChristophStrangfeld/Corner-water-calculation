@@ -1,10 +1,10 @@
 # Corner-water-calculation
 This is the corresponding code for the publication "Quantification of physisorbed and corner water in partially saturated pore networks based on polygonal pore geometries".
 
-This repository contains MATLAB scripts for the processing of pore saturations and sorption isotherms for different pore geometries and materials. Furthermore, it contain experimental data, including pore volume distributions (PVD) and measured sorption isotherms.
+This repository contains MATLAB scripts for the processing of pore saturations and sorption isotherms for different pore geometries and materials. Furthermore, it contains experimental data, including pore volume distributions (PVD) and measured sorption isotherms.
 
-The Matlab-file main_program.m reads in the measurement data and physical cosntants for subsequent calculations. This includes experimental data of 36 materials, including the material types earth, sandstone, cement-based screed and calcium-sulphate-based screed. 
-Calculations include the prediction of the pore saturation for different geometries such as slit-shaped, cylindrical, spherical, equilateral triangular, isosceles triangluar, square, and hexagonal pores. 
+The Matlab-file main_program.m reads in the measurement data and physical constants for subsequent calculations. This includes experimental data of 36 materials: earth, sandstone, cement-based screed and calcium-sulphate-based screed. 
+Calculations include the prediction of the pore saturation for different geometries such as slit-shaped, cylindrical, spherical, equilateral triangular, isosceles triangular, square, and hexagonal pores. 
 
 The main objective is to calculation physisorbed and condensed water in partially saturated pore and materials throughout the hygroscopic range.
 
@@ -14,11 +14,11 @@ The MATLAB script main_program.m performs the following tasks:
 
 Reads the measured PVD and sorption isotherms.
 
-Read physical constants for subseuqent calculations.
+Read physical constants for subsequent calculations.
 
 Computes the saturation of individual pores with different geometries.
 
-Separates adsorbed and condensated at partial saturation.
+Separates adsorbed and condensed at partial saturation.
 
 Computes the sorption isotherm for 36 investigated materials and quantifies the ratio of condensed water. 
 
@@ -98,7 +98,7 @@ Weber_floor_4341
 
 Weber_floor_4490
 
-The PVD were determined with mercury intrusion porosimetry and gas adsorption according to ISO 15901-1:2016 and ISO 15901-2:200. The sorption isotherms of screed samples were measured in climate chambers, for sandstones in desiccators, and earth in dynamic vapour adsorption devices. Measurements were taken always at equlibirum state.
+The PVD were determined with mercury intrusion porosimetry and gas adsorption according to ISO 15901-1:2016 and ISO 15901-2:200. The sorption isotherms of screed samples were measured in climate chambers, for sandstones in desiccators, and earth in dynamic vapour adsorption devices. Measurements were taken always at equilibrium state.
 
 📁 Data Structure
 
