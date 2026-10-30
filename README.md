@@ -108,17 +108,43 @@ For each material, a file exists for the pore volume distribution "pore_volume_d
 
 For 28 materials, measured sorption isotherms are available. The corresponding files are named "sorption_isotherm_#material_name##
 
-⚙️ Signal Processing
+⚙️ Data Processing
 
+Individual pore saturation is calculated for cylindrical pores based on Hillerborg sorption theory.
 
+Individual pore saturation is calculated for slit-shaped pores based on BET sorption theory.
 
+Individual pore saturation is calculated for equilateral triangular pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+Individual pore saturation is calculated for isosceles triangular pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+Individual pore saturation is calculated for square pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+Individual pore saturation is calculated for hexagonal pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+For 36 materials, the sorption isotherm is calculated for cylindrical pores based on Hillerborg sorption theory.
+
+For 36 materials, the sorption isotherm is calculated for slit-shaped pores based on BET sorption theory.
+
+For 36 materials, the sorption isotherm is calculated for equilateral triangular pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+For 36 materials, the sorption isotherm is calculated for isosceles triangular pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+For 36 materials, the sorption isotherm is calculated for square pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
+
+For 36 materials, the sorption isotherm is calculated for hexagonal pores: I- pure adsorption based on BET sorption theory, II- pure condensed water based on Kelvin equation, III- combination of both.
 
 📦 Key Output Variables
 
+Saturation of individual pores in respect to humidity, geometry, adsorption and/or condensation.
+
+Material moisture in respect to humidity, geometry, adsorption and/or condensation.
+
+Contribution of condensation of the material moisture.
 
 📈 Additional Data Extraction
 
-
+Validation of the snap-off criterion when the corresponding relative humidity is approaching the water-vapour partial pressure at saturation. 
 
 🛠 Requirements
 
